@@ -1,0 +1,20 @@
+RewriteEngine on
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    
+# Makes root of the site not to redirect to 'transfer.php':
+RewriteCond %{REQUEST_URI} !^/$            
+
+# Same for these pages
+RewriteCond %{REQUEST_URI} !^/transfer.php$
+RewriteCond %{REQUEST_URI} !^/index.php$
+RewriteCond %{REQUEST_URI} !^/api.php$
+RewriteCond %{REQUEST_URI} !^/contact.php$
+RewriteCond %{REQUEST_URI} !^/privacy-policy.php$
+RewriteCond %{REQUEST_URI} !^/terms.php$
+
+RewriteCond %{REQUEST_URI} !^/api/
+
+# testdir and all files in it are not redirected to parser
+RewriteRule (.*) /transfer.php?q=$1 [L,QSA]
