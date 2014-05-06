@@ -2,7 +2,7 @@
 
   require('../db.config.php');
 
-  require_once('../class/Mysqlidb.php');
+  require_once('../class/MysqliDb.php');
 
   require('../class/token.class.php');
   require('../class/url.class.php');
