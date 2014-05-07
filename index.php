@@ -70,7 +70,7 @@
       <div class="row marketing">
         <div class="col-lg-12">
           <h4>What is a URL Shortener?</h4>
-          <p>A URL Shortener allows you to take a long URL like <em>http://www.ebuyer.com/shop/desktop-deals?utm_source=2014-05-05&utm_medium=campaign_email&utm_campaign=B2C_05-05-2014_All_FS</em> and turn it into something like <em>http://ziz.im/pKD1eX</em>.</p>
+          <p>A URL Shortener allows you to take a long URL like <em>http://www.amazon.co.uk/Pitch-Perfect-Blu-ray-Digital-Copy/dp/B008YV11JQ/ref=sr_1_2?s=dvd&ie=UTF8&qid=1399448718&sr=1-2&keywords=pitch+perfect</em> and turn it into something like <em>http://ziz.im/llB2m2</em>.</p>
           
           <h4>What is an alias?</h4>
           <p>Zizim gives you the option to set an alias for your short url. Essentially, this means you can set what comes after our URL (if it isn't already in use). e.g. http://ziz.im/<em>customalias</em>. If one isn't provided, we'll generate you one of our own.</p>
