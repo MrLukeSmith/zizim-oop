@@ -6,6 +6,14 @@ The general purpose of this code, is to generate a shortened URL. You parse in a
 
 Any clicks (visits) to a Zizim URL are logged in order to provide usage statistics. As of yet, this feature is only accessible through the API. 
 
+## URL Statistics / Tracking
+
+I've added a very crude tracking view, primarily for my own benefit (thus the lack of visual niceties). Appending a dollar sign the end of the shortened URL will present you with the number of clicks and the time of the last click. E.g. http://ziz.im/url$
+
+I will tidy this up, at some point. I need to spend some time working on the UI, this is just a temporary implementation. The "pretty" version will feature more useful information, presented in an aesthetically pleasing way. Making use of the few pieces of information which are collected to paint a digital picture, so to speak.
+
 ## The API
 
 This iteration of Zizim encompasses a basic REST API, allowing the generation of shortened URL's by remote services and applications. It's not currently public, but I hope to do this in the near future. The structure of the API is already present in the code, I just need to integrate user registration to allow people to obtain the API tokens required to interact with it. 
+
+Note: The public API will most likely be released in June 2014. 
