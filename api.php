@@ -38,7 +38,7 @@
         <h1>Use our free API</h1>
         <p class="lead">We are producing a basic API to allow the integration of Zizim into other applications, and services. Public access to this service will be granted shortly.</p>
         <p>
-          <a class="btn btn-lg btn-success" href="#" role="button">Due by the end of June 2014</a>
+          <a class="btn btn-lg btn-success" href="#" role="button">Due by the end of July 2014</a>
         </p>
       </div>
 
