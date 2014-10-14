@@ -36,9 +36,9 @@
 
       <div class="jumbotron">
         <h1>Use our free API</h1>
-        <p class="lead">We are producing a basic API to allow the integration of Zizim into other applications, and services. Public access to this service will be granted shortly.</p>
+        <p class="lead">We are producing a basic API to allow the integration of Zizim into other applications, and services. Public access to this service will be granted when the re-built version of Zizim in released. Due out the start of November, 2014.</p>
         <p>
-          <a class="btn btn-lg btn-success" href="#" role="button">Due by the end of July 2014</a>
+          <a class="btn btn-lg btn-success" href="#" role="button">Available when Zizim is re-released</a>
         </p>
       </div>
 
