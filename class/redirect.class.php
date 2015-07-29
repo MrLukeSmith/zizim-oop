@@ -5,6 +5,7 @@
     var $query; 
     var $redirect_url;
     var $url_id;
+    var $ip;
 
     function __construct( $q ){
       $this->query = $q;
@@ -19,6 +20,7 @@
       if (isset($result[0]['url'])){
         $this->redirect_url = $result[0]['url'];
         $this->url_id = $result[0]['ID'];
+        $this->ip = $result[0]['IP'];
       }
     }
 
@@ -32,6 +34,10 @@
 
     function get_redirect_url(){
       return $this->redirect_url;
+    }
+
+    function get_ip_address(){
+      return $this->ip;
     }
 
     function track(){
