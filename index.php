@@ -82,7 +82,7 @@
       </div>
 
       <div class="footer">
-        <p>Copyright &copy; <a href="http://smithyy.co.uk" target="_blank">Luke Smith</a> 2014.</p>
+        <p>Copyright &copy; <a href="http://smithyy.co.uk" target="_blank">Luke Smith</a> 2015.</p>
       </div>
 
     </div> <!-- /container -->
