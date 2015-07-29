@@ -16,4 +16,6 @@ I will tidy this up, at some point. I need to spend some time working on the UI,
 
 This iteration of Zizim encompasses a basic REST API, allowing the generation of shortened URL's by remote services and applications. It's not currently public, but I hope to do this in the near future. The structure of the API is already present in the code, I just need to integrate user registration to allow people to obtain the API tokens required to interact with it. 
 
-Note: The public API will most likely be released in June 2014. 
+## IP Blocking
+
+Due to some malicious activity, an IP blocker class has been included to permit the blocking of specific IP addresses. If an IP is blocked, any of the URL's which were shortened from that IP are no longer active and cannot be used. 
